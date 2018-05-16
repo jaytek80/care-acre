@@ -1,0 +1,12 @@
+{% extends "wiki/base_site.html" %}
+{% load static %}
+
+{% block wiki_header_branding %}
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Aclonica');
+    @import url({% static "css/acre.css" %});
+</style>
+<a class="navbar-brand acre-font" href="{% url 'wiki:root' %}"><img src="{% static "img/ACRE_LOGO.png" %}" alt="Logo" class="acre-logo"/>ACRE CARES</a>
+{% endblock %}
+
+<!--  -->

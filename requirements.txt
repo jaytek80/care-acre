@@ -1,0 +1,4 @@
+mysqlclient
+django
+django-allauth
+wiki==0.4a4         # Change this when it's stock comfortable with django 2.0
